@@ -26,9 +26,12 @@ paper/*.synctex.gz
 
 # Temp files
 *.tmp
-_*.py
+
+# Cache
+.pytest_cache/
 
 # Project-specific
 supplementary.zip
 比赛.txt
 .claude/
+zh_for_review/
