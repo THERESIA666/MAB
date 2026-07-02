@@ -1,0 +1,36 @@
+# Multi-Agent Benchmark Experiment Configuration
+
+experiment:
+  name: "default-comparison"
+  description: "Compare single-agent baseline against multi-agent frameworks"
+
+# LLM settings
+llm:
+  model: "claude-sonnet-4-6-20251001"
+  provider: "anthropic"
+  temperature: 0.0
+  max_tokens: 4096
+
+# Adapters to test
+adapters:
+  - single-agent
+  # Uncomment to add multi-agent frameworks:
+  # - crewai
+  # - autogen
+  # - langgraph
+
+# Task selection
+tasks:
+  # Run all tasks by default
+  # To run specific tasks, uncomment and edit:
+  # include: ["mhq-1", "mhq-2", "code-1", "data-1", "research-1", "plan-1"]
+
+# Execution
+execution:
+  repeat: 1        # Number of repetitions per task
+  timeout: 300     # Timeout per task in seconds
+
+# Output
+output:
+  dir: "experiments/results"
+  prefix: "benchmark"

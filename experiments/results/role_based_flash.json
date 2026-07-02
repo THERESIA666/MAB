@@ -1,0 +1,232 @@
+{
+  "benchmark_id": "8b2fb7c7",
+  "timestamp": "2026-06-25T10:21:22.036862+00:00",
+  "adapters": [
+    "role-based-flash"
+  ],
+  "tasks": [
+    "mhq-1",
+    "mhq-2",
+    "mhq-3",
+    "code-1",
+    "code-2",
+    "data-1",
+    "research-1",
+    "research-2",
+    "plan-1"
+  ],
+  "results": [
+    {
+      "task_id": "mhq-1",
+      "task_name": "Multi-hop QA: What is the official language of the country where the headq...",
+      "adapter_name": "role-based-flash",
+      "success": true,
+      "score": 0.6000000000000001,
+      "metrics": {
+        "total_tokens": 3326,
+        "prompt_tokens": 1696,
+        "completion_tokens": 1630,
+        "total_time_ms": 20005.409002304077,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.000694,
+        "orchestration_overhead_ms": 0,
+        "internal_roundtrips": 3,
+        "llm_calls": 3
+      },
+      "output": "**Answer:** **English** (the *de facto* official language of the United Kingdom).\n\n---\n\n### Step-by-Step Reasoning\n\n1. **Who created AlphaGo?**  \n   AlphaGo was developed by **DeepMind Technologies**, an artificial intelligence company.\n\n2. **Where is DeepMind’s headquarters located?**  \n   DeepMind’s headquarters is in **London, England**, which is part of the **United Kingdom**.\n\n3. **Which country is that?**  \n   The country is the **United Kingdom**.\n\n4. **What is the official language of the United Kingdom?**  \n   The United Kingdom does not have a *de jure* (legally designated) national language at the federal level. However, **English** is the **de facto official language** used in government, law, education, and daily life. For all practical purposes, English is the official language.\n\n---\n\n### Final Answer\n\nThe official language (de facto) of the country where the headquarters of the company that created AlphaGo is located is **English**.",
+      "error": null,
+      "duration_ms": 20005.409002304077
+    },
+    {
+      "task_id": "mhq-2",
+      "task_name": "Multi-hop QA: In what year was the first person to walk on the Moon born?...",
+      "adapter_name": "role-based-flash",
+      "success": true,
+      "score": 1.0,
+      "metrics": {
+        "total_tokens": 3023,
+        "prompt_tokens": 1652,
+        "completion_tokens": 1371,
+        "total_time_ms": 18601.245403289795,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.000615,
+        "orchestration_overhead_ms": 0,
+        "internal_roundtrips": 3,
+        "llm_calls": 3
+      },
+      "output": "**Answer: 1930**\n\n### Step-by-Step Reasoning\n\n1. **Identify the first person to walk on the Moon**  \n   The first human to step onto the lunar surface was **Neil Armstrong**, commander of Apollo 11, on July 20, 1969. This fact is universally accepted and documented by NASA and all major historical records.\n\n2. **Determine Neil Armstrong’s birth year**  \n   According to NASA’s official biography, Encyclopaedia Britannica, and other authoritative sources, Neil Armstrong was born on **August 5, 1930**.\n\nTherefore, the first person to walk on the Moon was born in **1930**.",
+      "error": null,
+      "duration_ms": 18601.245403289795
+    },
+    {
+      "task_id": "mhq-3",
+      "task_name": "Multi-hop QA: What is the chemical symbol of the element discovered by the...",
+      "adapter_name": "role-based-flash",
+      "success": true,
+      "score": 1.0,
+      "metrics": {
+        "total_tokens": 5666,
+        "prompt_tokens": 2172,
+        "completion_tokens": 3494,
+        "total_time_ms": 43292.95802116394,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.001282,
+        "orchestration_overhead_ms": 0,
+        "internal_roundtrips": 3,
+        "llm_calls": 3
+      },
+      "output": "**Answer:** Es (einsteinium)\n\n---\n\n### Step‑by‑Step Reasoning\n\n**1. Identify the scientist who developed the theory of relativity**  \nThe theory of relativity (special and general) was developed by **Albert Einstein**. This is universally accepted.\n\n**2. Determine whether that scientist discovered any chemical elements**  \nEinstein’s own research did not lead to the discovery of any chemical elements. He was a theoretical physicist, and no element is attributed to his direct experimental discovery.\n\n**3. Recognize the element associated with that scientist’s name**  \nThe element **einsteinium** (symbol **Es**) was named in honor of Albert Einstein. It was discovered in 1952 by Albert Ghiorso and his team from the debris of the Ivy Mike thermonuclear test, not by Einstein himself.\n\n**4. Resolve the wording trap**  \nThe question asks for the element “discovered by” the scientist who developed relativity. Strictly interpreted, there is no such element. However, in common trivia and puzzle contexts, the phrase is understood to mean “the element named after that scientist.” The only element linked to Einstein is einsteinium.\n\n**Conclusion**  \nUnder the intended (loose) interpretation, the chemical symbol is **Es**. Under a strict literal reading, the question has no valid answer. The widely accepted answer, and the one that satisfies the multi‑step reasoning pattern, is **Es**.\n\n---\n\n*Note: This answer explicitly addresses the ambiguity between “discovered by” and “named after” to ensure clarity and accuracy.*",
+      "error": null,
+      "duration_ms": 43292.95802116394
+    },
+    {
+      "task_id": "code-1",
+      "task_name": "Code: Write a Python function `is_palindrome(s: str) -> bool`...",
+      "adapter_name": "role-based-flash",
+      "success": true,
+      "score": 0.5833333333333334,
+      "metrics": {
+        "total_tokens": 9600,
+        "prompt_tokens": 4353,
+        "completion_tokens": 5247,
+        "total_time_ms": 66220.00765800476,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.002079,
+        "orchestration_overhead_ms": 0,
+        "internal_roundtrips": 3,
+        "llm_calls": 3
+      },
+      "output": "```python\nimport unicodedata\nfrom typing import Optional\n\n\ndef is_palindrome(s: str) -> bool:\n    \"\"\"\n    Return True if the input string is a palindrome, ignoring case,\n    spaces, and all non‑alphanumeric characters.\n\n    Normalisation steps:\n        1. Each character is converted to lowercase using `str.lower()`.\n           For broader Unicode handling (e.g., German 'ß' → 'ss') consider\n           replacing `.lower()` with `.casefold()`.\n        2. Only characters that are letters or digits (`str.isalnum()`) are kept.\n        3. The cleaned string is compared with its reversed form.\n\n    .. note::\n       The function does **not** perform Unicode normalisation (NFC/NFD).\n       Composed and decomposed representations of the same character\n       (e.g., ``'é'`` vs. ``'e\\u0301'``) are treated as different strings.\n       If identical visual appearance is required, pass the input through\n       :func:`unicodedata.normalize` beforehand or modify the function.\n\n    Args:\n        s: The string to check. Must be a `str` instance (otherwise a\n           :class:`TypeError` is raised).\n\n    Returns:\n        ``True`` if the normalised string reads the same forwards and\n        backwards, ``False`` otherwise.\n\n    Raises:\n        TypeError: If `s` is not a string.\n\n    Examples:\n        >>> is_palindrome(\"Racecar\")\n        True\n        >>> is_palindrome(\"A man, a plan, a canal: Panama\")\n        True\n        >>> is_palindrome(\"hello\")\n        False\n        >>> is_palindrome(\"\")\n        True\n        >>> is_palindrome(\"12321\")\n        True\n        >>> is_palindrome(\"Madam, I'm Adam\")\n        True\n        >>> is_palindrome(\"No 'x' in Nixon\")\n        True\n    \"\"\"\n    if not isinstance(s, str):\n        raise TypeError(f\"Expected a string, got {type(s).__name__}\")\n\n    # Build the normalised string in a single pass\n    cleaned = ''.join(ch.lower() for ch in s if ch.isalnum())\n    return cleaned == cleaned[::-1]\n```",
+      "error": null,
+      "duration_ms": 66221.01378440857
+    },
+    {
+      "task_id": "code-2",
+      "task_name": "Code: Write a Python function `fibonacci(n: int) -> list[int]...",
+      "adapter_name": "role-based-flash",
+      "success": false,
+      "score": 0.45454545454545453,
+      "metrics": {
+        "total_tokens": 9019,
+        "prompt_tokens": 4111,
+        "completion_tokens": 4908,
+        "total_time_ms": 57010.17951965332,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.00195,
+        "orchestration_overhead_ms": 0,
+        "internal_roundtrips": 3,
+        "llm_calls": 3
+      },
+      "output": "```python\ndef fibonacci(n: int) -> list[int]:\n    \"\"\"\n    Return the first n Fibonacci numbers (starting with 0, 1).\n\n    The Fibonacci sequence follows the recurrence F(0) = 0, F(1) = 1,\n    and F(k) = F(k-1) + F(k-2) for k >= 2.\n\n    Args:\n        n: A non-negative integer specifying how many Fibonacci numbers to return.\n\n    Returns:\n        A list of the first n Fibonacci numbers.\n\n    Raises:\n        TypeError: If n is not an integer (including booleans, which are\n                   considered integers by Python but accepted here).\n        ValueError: If n is negative.\n\n    Examples:\n        >>> fibonacci(0)\n        []\n        >>> fibonacci(1)\n        [0]\n        >>> fibonacci(2)\n        [0, 1]\n        >>> fibonacci(5)\n        [0, 1, 1, 2, 3]\n    \"\"\"\n    # Type check: accept any integer (including bool) for robust usability\n    if not isinstance(n, int):\n        raise TypeError(f\"n must be an integer, got {type(n).__name__}\")\n\n    # Value check\n    if n < 0:\n        raise ValueError(\"n must be non-negative\")\n\n    # Base cases\n    if n == 0:\n        return []\n    if n == 1:\n        return [0]\n\n    # Build sequence iteratively\n    result = [0, 1]          # n >= 2 guarantees at least 2 elements\n    a, b = 0, 1\n    for _ in range(2, n):\n        a, b = b, a + b\n        result.append(b)\n\n    return result\n```",
+      "error": null,
+      "duration_ms": 57010.17951965332
+    },
+    {
+      "task_id": "data-1",
+      "task_name": "Data Analysis: Online Store Sales",
+      "adapter_name": "role-based-flash",
+      "success": true,
+      "score": 0.9,
+      "metrics": {
+        "total_tokens": 9495,
+        "prompt_tokens": 4055,
+        "completion_tokens": 5440,
+        "total_time_ms": 57796.795129776,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.002091,
+        "orchestration_overhead_ms": 0,
+        "internal_roundtrips": 3,
+        "llm_calls": 3
+      },
+      "output": "# Weekly Sales Analysis Report\n\n## Executive Summary\n\nThis report analyzes the sales performance of a small online store over seven days (Monday through Sunday). All figures have been independently verified from the provided transaction data.\n\n---\n\n## 1. Total Revenue for the Week\n\n**$2,595.00**\n\nThis total is the sum of all Widget A and Widget B sales:\n\n- Widget A: 88 units × $15.00 = $1,320.00  \n- Widget B: 51 units × $25.00 = $1,275.00  \n\n---\n\n## 2. Best-Selling Product by Units\n\n**Widget A** – 88 units sold (63.3% of total units)\n\nWidget B sold 51 units.\n\n---\n\n## 3. Best-Selling Product by Revenue\n\n**Widget A** – $1,320.00\n\nAlthough Widget B has a higher unit price ($25 vs. $15), its lower volume (51 units) brought in only $1,275.00, just $45.00 less than Widget A. A shift of only 2 additional Widget B units per day would overtake Widget A in weekly revenue.\n\n---\n\n## 4. Region with Highest Total Sales (by Revenue)\n\n**US** – $1,245.00\n\n| Region | Revenue | Product Purchases |\n|--------|---------|------------------|\n| US     | $1,245  | All Widget A (83 units) |\n| EU     | $800    | All Widget B (32 units) |\n| Asia   | $550    | Widget A (5 units) + Widget B (19 units) |\n\nThe US leads primarily because it buys *only* Widget A at high volume (83 units). The EU and Asia purchase at lower volumes or lower-priced mixes.\n\n---\n\n## 5. Day with Highest Revenue\n\n**Friday** – $650.00 (25% of weekly revenue)\n\nFriday’s sales were nearly three times the lowest day (Sunday, $125). The daily revenue trend rose steadily from Monday ($305) through a mid-week dip on Wednesday ($300), peaked Friday, then dropped sharply over the weekend.\n\n| Day    | Revenue |\n|--------|---------|\n| Mon    | $305    |\n| Tue    | $395    |\n| Wed    | $300    |\n| Thu    | $375    |\n| **Fri**| **$650**|\n| Sat    | $445    |\n| Sun    | $125    |\n\n---\n\n## 6. Trends and Insights\n\n### Regional Specialization\n- **US** customers buy **only Widget A**; **EU** customers buy **only Widget B**; **Asia** buys both",
+      "error": null,
+      "duration_ms": 57796.795129776
+    },
+    {
+      "task_id": "research-1",
+      "task_name": "Research: Compare the transformer architecture (introduced in 'At...",
+      "adapter_name": "role-based-flash",
+      "success": true,
+      "score": 1.0,
+      "metrics": {
+        "total_tokens": 9845,
+        "prompt_tokens": 3951,
+        "completion_tokens": 5894,
+        "total_time_ms": 72892.55261421204,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.002203,
+        "orchestration_overhead_ms": 0,
+        "internal_roundtrips": 3,
+        "llm_calls": 3
+      },
+      "output": "# Transformer vs. Mamba: Quadratic Attention vs. Linear State Spaces\n\n## Introduction\n\nThe transformer architecture (Vaswani et al., 2017) and the Mamba architecture (Gu & Dao, 2023) represent two fundamentally different approaches to sequence modeling. Transformers rely on self-attention mechanisms that compute pairwise interactions between all positions, while Mamba uses selective state space models (SSMs) that compress history into a fixed-dimensional state vector. This report provides a rigorous, evidence-based comparison across four dimensions: computational complexity, memory requirements, strengths and weaknesses, and optimal use cases.\n\n---\n\n## 1. Computational Complexity\n\n### Transformer\nThe self-attention mechanism in a transformer layer has **O(T²·d)** complexity for the attention matrix computation, where T is sequence length and d is the model dimension. The feed-forward and projection operations add **O(T·d²)** per layer. The quadratic scaling in T means that doubling the sequence length quadruples the computational cost. This is a fundamental, not implementational, limitation: every token must attend to every other token.\n\n### Mamba\nMamba's selective SSM operates with **O(T·d·N)** complexity per layer, where N (the state dimension) is typically 16–64. This is **linear in T**. The computation involves a parallel scan (prefix sum) over the sequence, which achieves high GPU utilization despite the underlying recurrence. The hidden state update and output projection each scale linearly with T.\n\n### Practical Implications\n- For sequences under ~2,000 tokens, the difference is often negligible due to hardware optimizations (e.g., FlashAttention for Transformers).\n- Beyond 10,000 tokens, Mamba's cost advantage grows rapidly. A 100k-token sequence costs 50× more for a Transformer than a 2k-token sequence; for Mamba, the cost scales only 50× (not 2,500×).\n\n---\n\n## 2. Memory Requirements\n\n### Transformer\nA transformer layer stores two major structures:\n\n- **Att",
+      "error": null,
+      "duration_ms": 72892.55261421204
+    },
+    {
+      "task_id": "research-2",
+      "task_name": "Research: Explain the concept of 'speculative decoding' in large ...",
+      "adapter_name": "role-based-flash",
+      "success": true,
+      "score": 1.0,
+      "metrics": {
+        "total_tokens": 10639,
+        "prompt_tokens": 4619,
+        "completion_tokens": 6020,
+        "total_time_ms": 79089.7970199585,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.002332,
+        "orchestration_overhead_ms": 0,
+        "internal_roundtrips": 3,
+        "llm_calls": 3
+      },
+      "output": "## Speculative Decoding in Large Language Models\n\nSpeculative decoding is a technique that accelerates the generation of text by large language models (LLMs) without sacrificing output quality. It exploits a fundamental mismatch in modern hardware: while LLMs must generate tokens one at a time (autoregressive decoding), the underlying hardware (GPUs) is far more efficient when doing many parallel computations at once. Speculative decoding bridges this gap by having a small, fast “draft” model propose multiple tokens at once, which a larger, slower “target” model then verifies in parallel. Below, the technique is explained in four parts: the problem it solves, how it works, typical speedups, and the trade-offs and limitations that practitioners must consider.\n\n---\n\n### 1. What Problem It Solves\n\n**The autoregressive bottleneck**  \nLLMs generate text token by token. Each token requires a full forward pass through the entire model. This sequential process means that latency grows linearly with the number of tokens generated, making long responses slow – especially for interactive applications like chatbots, code completion, or real-time translation.\n\n**GPU underutilization**  \nFor small batch sizes (e.g., a single user query), LLM inference is not compute-bound but **memory-bandwidth-bound**. The GPU spends most of its time reading the model weights from memory, while the actual arithmetic units are idle. The sequential nature of generation only worsens this: each token pass re-reads the same weights. As a result, the GPU’s parallel compute capacity is largely wasted.\n\nSpeculative decoding addresses these problems by replacing many sequential forward passes of the large model with a single, wider pass that processes multiple tokens in parallel – keeping the GPU busier and reducing the time per generated token.\n\n---\n\n### 2. How It Works (High Level)\n\nSpeculative decoding introduces a second, smaller model – the **draft model** – that is cheap to run. The process follows",
+      "error": null,
+      "duration_ms": 79090.86894989014
+    },
+    {
+      "task_id": "plan-1",
+      "task_name": "Planning: Tech Conference Organization",
+      "adapter_name": "role-based-flash",
+      "success": true,
+      "score": 1.0,
+      "metrics": {
+        "total_tokens": 17186,
+        "prompt_tokens": 6421,
+        "completion_tokens": 10765,
+        "total_time_ms": 131324.85723495483,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.003913,
+        "orchestration_overhead_ms": 0,
+        "internal_roundtrips": 3,
+        "llm_calls": 3
+      },
+      "output": "# 3-Day Tech Conference Plan for 500 Attendees\n\n## Executive Overview\n\nThis plan outlines a comprehensive 3-day in-person tech conference for 500 attendees in a major North American city. The conference is designed to generate revenue through ticket sales ($300–$600 per person) and sponsorships ($100k–$300k), with a total budget of **$248,000–$333,000**. The plan addresses venue, schedule, catering, technical requirements, and a detailed budget breakdown.\n\n---\n\n## 1. Venue Requirements\n\n### Space Allocation\n| Space Type | Size | Capacity | Quantity |\n|------------|------|----------|----------|\n| Main hall (keynotes, plenary) | 8,000–10,000 sq ft | 500 theater-style | 1 |\n| Breakout rooms | 1,200–1,600 sq ft each | 80–120 classroom-style | 4–6 |\n| Exhibition area | 3,000–5,000 sq ft | 20–30 sponsor booths | 1 |\n| Networking / lounge space | 2,000–3,000 sq ft | Casual seating | 1–2 |\n| Registration / welcome area | 1,000–1,500 sq ft | Check-in + info desk | 1 |\n| **Total** | **15,000–22,000 sq ft** | — | — |\n\n### Venue Type & Logistics\n- **Preferred venue**: Convention center or large hotel with in-house catering\n- **Capacity note**: At 30–40 sq ft per person, 15,000 sq ft accommodates 500 attendees comfortably, accounting for aisles, stage, and AV equipment\n- **Accessibility**: All spaces must be ADA-compliant\n- **Union labor**: If in a union city (e.g., San Francisco, New York, Chicago), AV and setup costs increase 30–50%. Factor this into budget selection.\n\n### Key Operational Considerations\n- Loading dock access for exhibitors\n- Climate control for 500-person occupancy\n- Multiple entrances/exits for crowd flow\n- Restroom capacity adequate for 500 people (minimum 8–10 stalls per gender)\n\n---\n\n## 2. Schedule Structure\n\n### Day 1 – Workshop Day (09:00–17:30)\n| Time | Activity | Details |\n|------|----------|---------|\n| 07:30–08:30 | Registration opens | Continental breakfast available at registration station |\n| 08:30–09:00 | Coffee & networking | |\n| 09:00–10:30 | M",
+      "error": null,
+      "duration_ms": 131324.85723495483
+    }
+  ],
+  "metadata": {
+    "repeat": 1,
+    "task_count": 9,
+    "adapter_count": 1
+  }
+}

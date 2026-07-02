@@ -1,0 +1,228 @@
+{
+  "benchmark_id": "crewai-real-v1",
+  "timestamp": "2026-06-25T19:21:51",
+  "adapters": [
+    "crewai-real"
+  ],
+  "tasks": [
+    "mhq-1",
+    "mhq-2",
+    "mhq-3",
+    "code-1",
+    "code-2",
+    "data-1",
+    "research-1",
+    "research-2",
+    "plan-1"
+  ],
+  "results": [
+    {
+      "task_id": "mhq-1",
+      "task_name": "Multi-hop QA: What is the official language of the country where the headq...",
+      "adapter_name": "crewai-real",
+      "success": true,
+      "score": 1.0,
+      "metrics": {
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_time_ms": 15514.321088790894,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.0,
+        "orchestration_overhead_ms": 0.0,
+        "internal_roundtrips": 0,
+        "llm_calls": 0
+      },
+      "output": "The official language (de facto) of the country where the headquarters of the company that created AlphaGo is located is **English**.\n\n---\n\n### **Complete Analysis**\n\n#### **1. Company That Created AlphaGo**\n\n- **Entity:** DeepMind Technologies (commonly known as DeepMind).\n- **Background:** DeepMind is a British artificial intelligence company founded in London in 2010. It developed AlphaGo, a computer program that defeated a professional human Go player in 2016. DeepMind was acquired by Google in 2014 and is now a wholly owned subsidiary of Alphabet Inc.\n- **Source Confirmation:** DeepMind's official website states it is \"the world leader in AI research\" and was founded in London. Wikipedia confirms DeepMind Technologies as the creator of AlphaGo.\n\n#### **2. Headquarters Location of DeepMind**\n\n- **Address:** 6 Pancras Square, London, N1C 4AG, United Kingdom.\n- **Key Details:** DeepMind maintains its global headquarters and principal executive offices in London. Although it is a subsidiary of Google (Alphabet Inc.), DeepMind operates as a separate entity with its own registered address in London. This is distinct from Google's headquarters in Mountain View, California, USA.\n- **Source Confirmation:** UK Companies House lists DeepMind Technologies Limited's registered office at the above London address. DeepMind's official contact page also confirms this location.\n\n#### **3. Country Where Headquarters Is Located**\n\n- **Country:** United Kingdom of Great Britain and Northern Ireland (commonly called the United Kingdom or UK).\n- **Key Details:** London is the capital city of the United Kingdom, a sovereign country that includes England, Scotland, Wales, and Northern Ireland. The headquarters is physically situated in England, a constituent country of the UK.\n\n#### **4. Official Language(s) of That Country**\n\n- **De Facto Official Language:** English.\n- **Key Details:** The United Kingdom does not have a legally codified (de jure) official language at the national lev",
+      "error": null,
+      "duration_ms": 0.0
+    },
+    {
+      "task_id": "mhq-2",
+      "task_name": "Multi-hop QA: In what year was the first person to walk on the Moon born?...",
+      "adapter_name": "crewai-real",
+      "success": true,
+      "score": 1.0,
+      "metrics": {
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_time_ms": 8971.261024475098,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.0,
+        "orchestration_overhead_ms": 0.0,
+        "internal_roundtrips": 0,
+        "llm_calls": 0
+      },
+      "output": "The first person to walk on the Moon was Neil Armstrong. Neil Armstrong was born on August 5, 1930, in Wapakoneta, Ohio, USA. Therefore, the year of birth is **1930**.",
+      "error": null,
+      "duration_ms": 0.0
+    },
+    {
+      "task_id": "mhq-3",
+      "task_name": "Multi-hop QA: What is the chemical symbol of the element discovered by the...",
+      "adapter_name": "crewai-real",
+      "success": true,
+      "score": 1.0,
+      "metrics": {
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_time_ms": 17775.550603866577,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.0,
+        "orchestration_overhead_ms": 0.0,
+        "internal_roundtrips": 0,
+        "llm_calls": 0
+      },
+      "output": "**Final Comprehensive Answer: The Chemical Symbol Es**\n\nThe chemical symbol **Es** is the unique, IUPAC-standard identifier for the element **Einsteinium**, a synthetic and highly radioactive actinide metal with atomic number 99.\n\n---\n\n**1. Identification of the Chemical Symbol**\n\n- **Element Name:** Einsteinium\n- **Symbol:** Es\n- **Atomic Number:** 99\n- **Classification:** Actinide series, synthetic element\n- **Standardizing Body:** International Union of Pure and Applied Chemistry (IUPAC) universally recognizes Es as the chemical symbol for Einsteinium.\n\n---\n\n**2. Key Properties of Einsteinium (Es)**\n\n| Property | Value |\n|---|---|\n| **Atomic Number** | 99 |\n| **Atomic Mass** | [252] u (most stable isotope, Einsteinium-252) |\n| **Electron Configuration** | [Rn] 5f¹¹ 7s² |\n| **Group, Period, Block** | n/a (actinide), Period 7, f-block |\n| **Discovery** | 1952 by Albert Ghiorso and team at the University of California, Berkeley, in debris from the first hydrogen bomb test (Ivy Mike) |\n| **State at Standard Conditions** | Solid |\n| **Melting Point** | Approximately 860°C (predicted) |\n| **Density** | Approximately 8.84 g/cm³ (for Es-253) |\n| **Radioactivity** | Highly radioactive; all isotopes are unstable. Most stable isotope: Es-252 (half-life ~471.7 days). |\n\n---\n\n**3. Historical Context and Verification**\n\n- **Discovery (1952):** Einsteinium was first identified in the debris of the Ivy Mike thermonuclear explosion. The element was discovered by a team at the University of California, Berkeley, led by Albert Ghiorso.\n- **Name Origin:** The element was named Einsteinium to honor the physicist Albert Einstein. Notably, Einstein was not involved in the synthesis or discovery of the element named after him.\n- **First Production:** Microscopic amounts were initially produced through the intense neutron bombardment of plutonium in a nuclear reactor.\n- **Verification:** The discovery was officially recognized and the name accepted by IUPAC. The symbol Es is not shared b",
+      "error": null,
+      "duration_ms": 0.0
+    },
+    {
+      "task_id": "code-1",
+      "task_name": "Code: Write a Python function `is_palindrome(s: str) -> bool`...",
+      "adapter_name": "crewai-real",
+      "success": false,
+      "score": 0.4166666666666667,
+      "metrics": {
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_time_ms": 28334.53679084778,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.0,
+        "orchestration_overhead_ms": 0.0,
+        "internal_roundtrips": 0,
+        "llm_calls": 0
+      },
+      "output": "```python\nimport re\n\ndef is_palindrome(s: str) -> bool:\n    \"\"\"\n    Determine whether a given string is a palindrome, ignoring case, spaces, and punctuation.\n\n    The function processes the string by:\n    - Converting all characters to lowercase.\n    - Removing all non-alphanumeric characters (spaces, punctuation, etc.).\n    - Checking if the resulting string is equal to its reverse.\n\n    Args:\n        s (str): The input string to check.\n\n    Returns:\n        bool: True if the cleaned string is a palindrome, False otherwise.\n\n    Raises:\n        TypeError: If the input is not a string.\n\n    Examples:\n        >>> is_palindrome(\"A man, a plan, a canal: Panama\")\n        True\n        >>> is_palindrome(\"race a car\")\n        False\n        >>> is_palindrome(\"\")\n        True\n        >>> is_palindrome(\"a\")\n        True\n        >>> is_palindrome(\"No 'x' in Nixon\")\n        True\n        >>> is_palindrome(\"12321\")\n        True\n        >>> is_palindrome(\"hello\")\n        False\n        >>> is_palindrome(\"!?.,\")  # Only punctuation\n        True\n        >>> is_palindrome(12321)  # Non-string input\n        Traceback (most recent call last):\n        ...\n        TypeError: Input must be a string\n    \"\"\"\n    # Validate input type\n    if not isinstance(s, str):\n        raise TypeError(\"Input must be a string\")\n    \n    # Normalize: lowercase and remove all non-alphanumeric characters\n    # This handles case-insensitivity and ignores spaces/punctuation\n    cleaned = re.sub(r'[^a-z0-9]', '', s.lower())\n    \n    # Compare cleaned string with its reverse\n    return cleaned == cleaned[::-1]\n```\n\n## Comprehensive Explanation\n\n### Algorithm Overview\n\nThe `is_palindrome` function implements a clean, three-step algorithm to determine if a string is a palindrome under the specified constraints:\n\n1. **Type Safety**: First validates that the input is a string, raising a `TypeError` for invalid inputs (integers, lists, `None`, etc.)\n2. **Normalization**: Processes the string to make it suitable for co",
+      "error": null,
+      "duration_ms": 0.0
+    },
+    {
+      "task_id": "code-2",
+      "task_name": "Code: Write a Python function `fibonacci(n: int) -> list[int]...",
+      "adapter_name": "crewai-real",
+      "success": true,
+      "score": 0.7272727272727273,
+      "metrics": {
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_time_ms": 31653.244495391846,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.0,
+        "orchestration_overhead_ms": 0.0,
+        "internal_roundtrips": 0,
+        "llm_calls": 0
+      },
+      "output": "```python\ndef fibonacci(n: int) -> list[int]:\n    \"\"\"\n    Generate the first n Fibonacci numbers.\n    \n    The Fibonacci sequence starts with 0 and 1, and each subsequent number\n    is the sum of the two preceding numbers. This function implements an\n    efficient iterative approach with O(n) time complexity.\n    \n    Args:\n        n: A non-negative integer specifying how many Fibonacci numbers\n           to generate.\n    \n    Returns:\n        A list containing the first n Fibonacci numbers as integers.\n        Returns an empty list if n is 0.\n    \n    Raises:\n        TypeError: If n is not an integer.\n        ValueError: If n is a negative integer.\n    \n    Examples:\n        >>> fibonacci(0)\n        []\n        >>> fibonacci(1)\n        [0]\n        >>> fibonacci(5)\n        [0, 1, 1, 2, 3]\n        >>> fibonacci(10)\n        [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]\n    \"\"\"\n    # Input validation\n    if not isinstance(n, int):\n        raise TypeError(f\"n must be an integer, got {type(n).__name__}\")\n    \n    if n < 0:\n        raise ValueError(f\"n must be non-negative, got {n}\")\n    \n    # Handle edge cases\n    if n == 0:\n        return []\n    \n    if n == 1:\n        return [0]\n    \n    # Generate Fibonacci numbers iteratively\n    result = [0] * n  # Pre-allocate list for efficiency\n    result[0] = 0\n    result[1] = 1\n    \n    for i in range(2, n):\n        result[i] = result[i-1] + result[i-2]\n    \n    return result\n\n\n# Alternative implementation with more Pythonic style\ndef fibonacci_alt(n: int) -> list[int]:\n    \"\"\"\n    Generate the first n Fibonacci numbers (alternative implementation).\n    \n    This version builds the list dynamically using tuple unpacking,\n    which is more Pythonic but may be slightly less efficient for\n    very large values of n due to list resizing.\n    \n    Args:\n        n: A non-negative integer specifying how many Fibonacci numbers\n           to generate.\n    \n    Returns:\n        A list containing the first n Fibonacci numbers.\n    \n    Raises:\n      ",
+      "error": null,
+      "duration_ms": 0.0
+    },
+    {
+      "task_id": "data-1",
+      "task_name": "Data Analysis: Online Store Sales",
+      "adapter_name": "crewai-real",
+      "success": true,
+      "score": 0.9,
+      "metrics": {
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_time_ms": 28093.86920928955,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.0,
+        "orchestration_overhead_ms": 0.0,
+        "internal_roundtrips": 0,
+        "llm_calls": 0
+      },
+      "output": "Based entirely on the provided sales data, here is the comprehensive analysis and report.\n\n---\n\n## Comprehensive Sales Analysis Report\n\n### 1. Total Revenue for the Week\n\nTo calculate the total revenue, we multiply the units sold by the price per unit for each product entry and sum the results.\n\n- **Revenue from Widget A:**\n    - Mon: 12 * $15.00 = $180.00\n    - Tue: 8 * $15.00 = $120.00\n    - Wed: 15 * $15.00 = $225.00\n    - Thu: 10 * $15.00 = $150.00\n    - Fri: 20 * $15.00 = $300.00\n    - Sat: 18 * $15.00 = $270.00\n    - Sun: 5 * $15.00 = $75.00\n    - **Total Widget A Revenue: $1,320.00**\n\n- **Revenue from Widget B:**\n    - Mon: 5 * $25.00 = $125.00\n    - Tue: 11 * $25.00 = $275.00\n    - Wed: 3 * $25.00 = $75.00\n    - Thu: 9 * $25.00 = $225.00\n    - Fri: 14 * $25.00 = $350.00\n    - Sat: 7 * $25.00 = $175.00\n    - Sun: 2 * $25.00 = $50.00\n    - **Total Widget B Revenue: $1,275.00**\n\n- **Total Weekly Revenue: $1,320.00 + $1,275.00 = $2,595.00**\n\n### 2. Best-Selling Product by Units\n\nTo determine this, we sum the total units sold for each product across the entire week.\n\n- **Widget A Sales (by units):**\n    - Mon: 12\n    - Tue: 8\n    - Wed: 15\n    - Thu: 10\n    - Fri: 20\n    - Sat: 18\n    - Sun: 5\n    - **Total: 88 units**\n\n- **Widget B Sales (by units):**\n    - Mon: 5\n    - Tue: 11\n    - Wed: 3\n    - Thu: 9\n    - Fri: 14\n    - Sat: 7\n    - Sun: 2\n    - **Total: 51 units**\n\nThe best-selling product by units is **Widget A** with 88 units sold.\n\n### 3. Best-Selling Product by Revenue\n\nAs calculated in section 1, the revenue for each product is:\n\n- **Widget A: $1,320.00**\n- **Widget B: $1,275.00**\n\nThe best-selling product by revenue is **Widget A** with $1,320.00 in total sales.\n\n### 4. Region with Highest Total Sales\n\nTo find this, we calculate the total revenue generated from each customer region across all products and all days.\n\n- **US Region:**\n    - Mon (Widget A): 12 * $15.00 = $180.00\n    - Tue (Widget A): 8 * $15.00 = $120.00\n    - Wed (Widget A): 15 * $15.00 ",
+      "error": null,
+      "duration_ms": 0.0
+    },
+    {
+      "task_id": "research-1",
+      "task_name": "Research: Compare the transformer architecture (introduced in 'At...",
+      "adapter_name": "crewai-real",
+      "success": true,
+      "score": 1.0,
+      "metrics": {
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_time_ms": 91348.52933883667,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.0,
+        "orchestration_overhead_ms": 0.0,
+        "internal_roundtrips": 0,
+        "llm_calls": 0
+      },
+      "output": "# Comprehensive Analysis: Transformer vs. Mamba Architecture Comparison\n\n## Executive Summary\n\nThis document provides a thorough, verified comparison between Transformer and Mamba architectures for sequence modeling. The analysis covers computational complexity, memory requirements, strengths and weaknesses, best use cases, and critical nuances often overlooked in superficial comparisons. All claims are verified against published research and known implementation characteristics as of October 2024.\n\n---\n\n## 1. Computational Complexity: Detailed Mathematical Analysis\n\n### 1.1 Transformer Self-Attention Complexity\n\n**Standard Formulation:**\n- Self-attention computes: Attention(Q,K,V) = softmax(QK^T/√d)V\n- Q, K, V matrices: each of shape (n × d) where n = sequence length, d = model dimension\n- QK^T computation: matrix multiplication of shape (n×d) × (d×n) = O(n²d) operations\n- Softmax application: O(n²) operations\n- Final multiplication by V: O(n²d) operations\n- **Total per head**: O(n²d + n²) ≈ O(n²d)\n\n**Multi-Head Attention:**\n- h heads each with dimension d/h: O(h × n² × d/h) = O(n²d)\n- No additional complexity from multiple heads; total remains O(n²d)\n\n**Feed-Forward Network:**\n- Two linear projections with expansion factor: O(nd²)\n- For d=4096, expansion to 4d=16384: O(4n × 4096²) per layer\n\n**Total per Transformer Layer:**\n- Attention: O(n²d)\n- FFN: O(nd²)\n- Combined: O(n²d + nd²)\n\n**Practical Scaling Behavior:**\n- For short sequences (n < d): nd² dominates\n- For long sequences (n > d): n²d dominates\n- **Crossover point**: n ≈ d, typically at 1024-4096 tokens\n\n### 1.2 Mamba State Space Model Complexity\n\n**SSM Recurrence Formulation:**\n- State update: xₜ₊₁ = A xₜ + B uₜ\n- Output: yₜ = C xₜ + D uₜ\n- Where: xₜ ∈ ℝ^d_state, uₜ ∈ ℝ^d, A ∈ ℝ^d_state×d_state, B ∈ ℝ^d_state×d, C ∈ ℝ^d×d_state, D ∈ ℝ^d×d\n\n**Per-Token Operations:**\n- State update: O(d × d_state) multiplications for B uₜ, O(d_state²) for A xₜ\n- Output computation: O(d × d_state) for C xₜ\n- **Total per token",
+      "error": null,
+      "duration_ms": 0.0
+    },
+    {
+      "task_id": "research-2",
+      "task_name": "Research: Explain the concept of 'speculative decoding' in large ...",
+      "adapter_name": "crewai-real",
+      "success": true,
+      "score": 1.0,
+      "metrics": {
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_time_ms": 51050.87208747864,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.0,
+        "orchestration_overhead_ms": 0.0,
+        "internal_roundtrips": 0,
+        "llm_calls": 0
+      },
+      "output": "# Speculative Decoding in Large Language Models: A Comprehensive Analysis\n\n## 1. What Problem It Solves\n\nSpeculative decoding addresses the **latency bottleneck** inherent in autoregressive (AR) text generation. In standard AR generation, LLMs produce tokens one by one, with each token depending on all previously generated tokens. This sequential dependency means the generation time grows linearly with sequence length, and for large models (e.g., 70B+ parameters), each step requires a full forward pass—a relatively slow operation even with hardware acceleration (GPUs/TPUs).\n\n### Key Issues It Solves:\n\n- **Memory bandwidth limitations**: In AR decoding, the model's weights must be loaded from memory for every token. This is often bandwidth-bound rather than compute-bound, especially for batch size 1 inference. Each token generation requires loading all model parameters from GPU memory, creating a bottleneck that limits throughput.\n\n- **Underutilization of parallel hardware**: GPUs excel at processing large batches or long sequences in parallel, but AR decoding forces them to process one token at a time. This means the massive parallel compute capability of modern GPUs (thousands of cores) remains largely idle during sequential generation.\n\n- **Cumulative latency**: For long generations (e.g., 1,000+ tokens), the latency becomes prohibitive for interactive applications (chatbots, real-time translation, code completion). Each token adds milliseconds of delay, and these delays accumulate to seconds or tens of seconds for lengthy outputs.\n\n### The Core Insight:\n\nSpeculative decoding exploits the fact that **many tokens are easy to predict**—a smaller, faster model can guess multiple tokens quickly, and a large model only needs to verify these guesses in a single parallel pass. This reduces the number of times the large model must run, transforming multiple sequential passes into a single parallel verification step.\n\n---\n\n## 2. How It Works at a High Level\n\nSpeculative de",
+      "error": null,
+      "duration_ms": 0.0
+    },
+    {
+      "task_id": "plan-1",
+      "task_name": "Planning: Tech Conference Organization",
+      "adapter_name": "crewai-real",
+      "success": true,
+      "score": 1.0,
+      "metrics": {
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_time_ms": 128506.04844093323,
+        "agent_interactions": 0,
+        "tool_calls": 0,
+        "agent_count": 3,
+        "estimated_cost_usd": 0.0,
+        "orchestration_overhead_ms": 0.0,
+        "internal_roundtrips": 0,
+        "llm_calls": 0
+      },
+      "output": "# Comprehensive 3-Day Tech Conference Plan: Final Document\n\n## Executive Summary\n\nThis document presents a complete, actionable plan for a 3-day tech conference accommodating 500 attendees. The plan covers all critical operational aspects including venue requirements, schedule structure, catering, technical infrastructure, and a detailed budget estimate. The target budget is $250,000, with a cost per attendee of approximately $500. This plan is designed for a mid-tier US city (e.g., Austin, Denver, Orlando) and assumes premium production values appropriate for a professional tech audience.\n\n---\n\n## 1. Venue Requirements\n\n### 1.1 Space Configuration\n\nThe venue must accommodate 500 attendees across multiple simultaneous activities. The total required square footage is 10,500–14,200 sq ft, distributed as follows:\n\n| Space | Capacity | Square Footage | Configuration |\n|-------|----------|----------------|---------------|\n| Main Hall (Plenary) | 500 | 5,000–7,000 | Theater seating, large stage with wings and backstage |\n| Breakout Rooms (3–5) | 100–150 each | 3,000–5,000 total | Classroom or cabaret style |\n| Exhibit/Sponsor Area | 15–20 booths | 1,500–2,000 | Networking tables, coffee stations |\n| Registration & Lobby | Check-in flow | 1,000–1,500 | Coat check, casual seating |\n| Green Room | Speakers | 500 | Private prep space |\n| A/V Control Room | Technicians | 200 | Equipment racks, monitoring |\n| Storage | Materials | 300 | Swag, signage, backup equipment |\n| Catering Prep Kitchen | Staff | On-site required | Full-service catering kitchen |\n\n### 1.2 Critical Specifications\n\n- **Ceiling Height:** Minimum 16 feet in main hall to accommodate LED wall and rigging\n- **Sightlines:** No pillars blocking views in any session room\n- **Acoustics:** Soundproofing between breakout rooms; good natural acoustics in main hall\n- **Accessibility:** Full ADA compliance including ramps, elevators, accessible restrooms, and assistive listening systems\n- **Power:** Multiple 20-amp circ",
+      "error": null,
+      "duration_ms": 0.0
+    }
+  ],
+  "metadata": {}
+}
