@@ -27,3 +27,8 @@ paper/*.synctex.gz
 # Temp files
 *.tmp
 _*.py
+
+# Project-specific
+supplementary.zip
+比赛.txt
+.claude/
